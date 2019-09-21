@@ -1,0 +1,7 @@
+{
+  "name": "appDinamica",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
