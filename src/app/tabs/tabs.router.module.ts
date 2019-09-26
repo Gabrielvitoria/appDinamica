@@ -40,7 +40,7 @@ const routes: Routes = [
       {
         path: 'dynamic',
         loadChildren: () => {
-          return import('./dynamic.module').then((comp: any) => {
+          return import('../dynamic/dynamic.module').then((comp: any) => {
             return comp.default;
           });
         }
