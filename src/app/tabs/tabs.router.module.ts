@@ -38,15 +38,6 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'dynamic',
-        loadChildren: () => {
-          return import('../dynamic/dynamic.module').then((comp: any) => {
-            return comp.default;
-          });
-        }
-      },
-
-      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
